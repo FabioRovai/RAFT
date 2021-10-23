@@ -11,10 +11,18 @@ url = 'https://drive.google.com/u/0/uc?export=download&confirm=dxYX&id=1Did693v6
 output = 'goverement_requests.zip'
 gdown.download(url, output, quiet=True)
 
+url = 'https://drive.google.com/u/0/uc?export=download&confirm=uAxG&id=1pw3S6t8bkSk0__RxCPfGSWwhsZuC9FDy'
+output = 'notices.json'
+gdown.download(url, output, quiet=True)
+
+url = 'https://drive.google.com/u/0/uc?id=10H32wf70nBFdwlqKvU_7my3BBPc8LDuv&export=download'
+output = 'csv.csv'
+gdown.download(url, output, quiet=False)
 
 url = 'https://drive.google.com/u/0/uc?export=download&confirm=zN00&id=1yNIJLQWw6ZdQPrCYVFj-2P-i996L7CEj'
 output = 'rtf.csv'
 gdown.download(url, output, quiet=True)
+
 ```
 
 
